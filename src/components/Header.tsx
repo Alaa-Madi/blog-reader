@@ -8,14 +8,14 @@ import PersonIcon from "@mui/icons-material/Person";
 
 export default function Header() {
   return (
-    <AppBar position="sticky" color="inherit" elevation={1}>
+    <AppBar position="sticky" color="inherit" elevation={1} sx={{width:'100%'}}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
 
         <Typography variant="h5" fontWeight="bold" >
            Blog Reader
         </Typography>
-
-        <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+{/* just as a design */}
+        <Box sx={{ display: "flex", alignItems: "center", gap: 6, }}>
           <IconButton color="inherit"><HomeIcon /></IconButton>
           <IconButton color="inherit"><SendIcon /></IconButton>
           <IconButton color="inherit"><ExploreIcon /></IconButton>

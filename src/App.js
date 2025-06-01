@@ -41,7 +41,7 @@ function App() {
   };
 
   return (
-    <><Container maxWidth="lg" sx={{ mt: 4 }}>
+    <><Container maxWidth="xg" sx={{ mt: 4 }}>
       <Header />
       {loading ? (
         <Box display="flex" justifyContent="center" mt={4}>

@@ -2,11 +2,11 @@ import { Card, CardContent, CardMedia, Avatar, Typography, Button, Grid, Box } f
 
 const PostCard = ({ post, author, isExpanded, onReadMore }) => {
   return (
-    <Grid container sx={{width:'100%', display: 'flex', alignItems: 'center', }}>
+    <Grid container sx={{width:'100%', display: 'flex', alignItems: 'center' }}>
       <Card
         sx={{
           height: "100%",
-          width: 600,
+          width: '60%',
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
